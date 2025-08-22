@@ -15,8 +15,6 @@ public class ReceiptService {
 		ReceiptFormatter rf = new ReceiptFormatter();
 		return rf.format(order, tax, subtotal, total);
 	}
-	public double getSubtotal(){
-		return this.subtotal;
-	}
+	
 	
 }
